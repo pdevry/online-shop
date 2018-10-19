@@ -20,6 +20,11 @@ public class OnlineShop
 
      System.out.println("Name: "+item.getName());
      System.out.println("Price: "+item.getPrice());
+
+     item.addComment("pdevry","this item is a bit plain.",2);
+
+     item.showInfo();
+
  }
 
 }
